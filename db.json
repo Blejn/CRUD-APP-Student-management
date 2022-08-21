@@ -1,24 +1,33 @@
-{"user": [
+{
+  "user": [
     {
-        "firstName":"Sebastian",
-        "lastName":"Mazur",
-        "email":"sebastian.mazur.p@gmail.com",
-        "contact":"+48 4563456654",
-        "id":"1"
+      "firstName": "Sebastian",
+      "lastName": "Mazur",
+      "email": "wieczorek@gmail.com",
+      "contact": "+48 6983456654",
+      "id": "1"
     },
     {
-        "firstName":"Marcin",
-        "lastName":"Moura",
-        "email":"barberpro@gmail.com",
-        "contact":"+48 3453456654",
-        "id":"2"
+      "firstName": "Marcin",
+      "lastName": "Mura",
+      "email": "wieczorek@gmail.com",
+      "contact": "+48 6983456654",
+      "id": "2"
     },
-      {
-        "firstName":"Michał",
-        "lastName":"Wieczór",
-        "email":"wieczorek@gmail.com",
-        "contact":"+48 6983456654",
-        "id":"3"
+    {
+      "firstName": "Michał",
+      "lastName": "Wieczór",
+      "email": "wieczorek@gmail.com",
+      "contact": "+48 6983456654",
+      "id": "3"
+    },
+    {
+      "firstName": "seba",
+      "lastName": "mazur",
+      "email": "seba@gmail.com",
+      "contact": "123456789",
+      "adress": "d",
+      "id": "fDGiBiF"
     }
   ]
 }
