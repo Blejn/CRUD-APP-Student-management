@@ -20,6 +20,17 @@ Small CRUD application where you can add,delete and edit user data.
 
 This is the second application that I have used redux, and i think
 at this moment i understand how it works. Additionally, I used JSON server to create the small database.
+# Photo
+
+Screen 1
+
+![crud app1](https://user-images.githubusercontent.com/102309928/185976609-e0ba6fb2-10c7-4e57-85c6-4782c6e19087.png)
+
+
+
+Screen 2 
+![crud app2](https://user-images.githubusercontent.com/102309928/185976904-4f6fcd54-e968-4c42-9fed-a14f1363fd35.png)
+
 
 
 
