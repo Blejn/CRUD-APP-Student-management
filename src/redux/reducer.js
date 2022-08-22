@@ -26,6 +26,17 @@ const usersReducers = (state= initialStaste,action)=>{
                 user:action.payload,
                 loading: false,
             }
+        case types.GET_SINGLE_USER:
+            return{
+                ...state,
+                user:action.payload,
+                loading:false
+            }
+        case types.EDIT_USER:
+            return{
+                ...state,
+                loading:false
+            }
     default:
         return state;
  }

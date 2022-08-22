@@ -1,5 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
+import {Link} from 'react-router-dom'
 import {
   Table,
   Thead,
@@ -46,7 +47,11 @@ if(window.confirm("You sure to delete?")){
         <Td>{user.lastName}</Td>
         <Td> {user.email}</Td>
          <Td> {user.contact}</Td>
-          <Td >  <Button colorScheme='green' marginRight={4}>Edit</Button> <Button colorScheme='red' onClick={()=>deleteHandler(user.id)}>Delete</Button></Td>
+          <Td > 
+            <Link to={`/edit/${user.id}`}>
+              <Button colorScheme='green' marginRight={4}>Edit</Button>
+             </Link>
+              <Button colorScheme='red' onClick={()=>deleteHandler(user.id)}>Delete</Button></Td>
       </Tr>
       ))};
     </Tbody>

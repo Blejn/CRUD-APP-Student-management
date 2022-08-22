@@ -16,6 +16,15 @@ const userDeleted=()=>({
 const userAdded=()=>({
     type: types.ADD_USER,
 });
+const gettedSingleUser=(user)=>({
+    type: types.GET_SINGLE_USER,
+    payload:user
+})
+const editedUser=()=>({
+
+        type: types.EDIT_USER,
+      
+    })
 
 export const loadUsers =()=>{
     return function (dispatch){
@@ -28,17 +37,6 @@ export const loadUsers =()=>{
         .catch((error)=> console.log(error));
     }
 
-}
-export const editUsers =()=>{
-    return function(dispatch){
-        axios
-        .get("http://localhost:3500/user")
-        .then((req)=>{
-
-        })
-        .catch((error)=> console.log(error));
-
-    }
 }
 export const deleteUser =(id)=>{
     return function(dispatch){
@@ -64,15 +62,27 @@ export const addUser =(user)=>{
         .catch((error)=> console.log(error))
     }
 }
-export const editUser =(user,id)=>{
+export const getSingleUser=(id)=>{
     return function(dispatch){
         axios
-        .post(`http://localhost:3500/user/`,user)
+        .get(`http://localhost:3500/user/${id}`)
         .then((resp)=>{
-            dispatch(userAdded);
+            console.log(resp)
+            dispatch(gettedSingleUser(resp.data));
             dispatch(loadUsers);
 
         })
         .catch((error)=> console.log(error))
+    }
+}
+export const editUser=(user,id)=>{
+    return function(dispatch){
+      axios
+           .put(`http://localhost:3500/user/${id}`,user)
+           .then((resp)=>{
+            dispatch(editedUser());
+            dispatch(loadUsers);
+           })
+           .catch((error)=> console.log(error))
     }
 }
