@@ -1,3 +1,30 @@
+
+# About
+Open [DEMO](http://localhost:3000) 
+
+Small CRUD application where you can add,delete and edit user data.
+
+# To-do
+- [x] Create react-redux app
+- [x] CRUD works
+- [x] App is responsive
+
+# What i used
+- [npx create-react-app my-app --template redux (https://github.com/reduxjs/redux)
+- [axios](https://axios-http.com/)
+- [chakra](https://chakra-ui.com)
+- [react-router-dom](https://reactrouter.com/)
+- [json Server] (https://www.npmjs.com/package/json-server)
+
+# What i learned 
+
+This is the second application that I have used redux, and i think
+at this moment i understand how it works. Additionally, I used JSON server to create the small database.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
