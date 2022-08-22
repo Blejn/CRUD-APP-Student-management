@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CRUD-APP-Student-management/static/css/main.073c9b0a.css",
+    "main.js": "/CRUD-APP-Student-management/static/js/main.6b62c9e5.js",
+    "static/js/787.74b63490.chunk.js": "/CRUD-APP-Student-management/static/js/787.74b63490.chunk.js",
+    "static/media/logo.svg": "/CRUD-APP-Student-management/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CRUD-APP-Student-management/index.html",
+    "main.073c9b0a.css.map": "/CRUD-APP-Student-management/static/css/main.073c9b0a.css.map",
+    "main.6b62c9e5.js.map": "/CRUD-APP-Student-management/static/js/main.6b62c9e5.js.map",
+    "787.74b63490.chunk.js.map": "/CRUD-APP-Student-management/static/js/787.74b63490.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6b62c9e5.js"
+  ]
+}
